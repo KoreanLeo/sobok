@@ -1,0 +1,16 @@
+.stampContainer{ max-width: 1200px; margin: 0 auto; padding: 10px; padding-bottom: 100px; padding-top: 73.33px; }
+
+.f_title{ text-align: center; font-size: 18px; font-weight: 600; margin-bottom: 40px; }
+
+.listBox{ border-top: 1px solid #E0E0E0; padding: 10px 0; }
+.listBox.borderBottom{ border-bottom: 1px solid #E0E0E0;}
+
+.listBox .label{ font-weight: 600; }
+.listBox .content{ color: #7f7f7f; margin-top: 5px; }
+.listBox .content.orange{ color: #FF9F74; }
+
+.stampTitle{ margin-top: 40px; font-size: 18px; font-weight: 600;  }
+.historyList{ margin-top: 10px; border-top: 1px solid #E0E0E0; }
+.historyList > li { padding: 10px 0; border-bottom: 1px solid #E0E0E0;   }
+.historyList > li .result{ color: #7F7F7F; margin-top: 5px; }
+

@@ -1,0 +1,27 @@
+.title{ padding: 13px 10px; font-size: 16px; background-color: #EAEAEA; font-weight: 600; }
+
+.ipt_wrap{ padding: 0 10px; border-bottom: 1px solid #E5E5E5; }
+.ipt_wrap .label{ padding: 13px 0px; font-weight: 600; }
+.ipt_wrap .label b{ color: #FF9F74; font-weight: 400; }
+.ipt_wrap .ipt{ margin: 0 0 13px 0; padding: 10px; font-size: 16px; width: 100%; resize: none;  }
+
+.radio_wrap{ display: flex; gap: 1em; margin-bottom: 13px; }
+.radio_wrap > li{ width: 50%;  }
+.radio_wrap > li > input[type="radio"]{ display: none; }
+.radio_wrap > li > label{ 
+    background-color: #EEEEEF; display: block; width: 100%; text-align: center; 
+    font-size: 16px; padding: 13px; border-radius: 4px; cursor: pointer;
+}
+.radio_wrap > li > input[type="radio"]:checked + label{ background-color: #FF9F74; color: #fff; }
+
+
+.btn_container{ display: flex; gap: 1em; margin: 40px 0; }
+.btn_container > li { width: 50%; }
+.btn_container .cancelBtn{ 
+    display: block; width: 100%; padding: 13px; border: none; 
+    background-color: #EEEEEF; font-size: 16px; border-radius: 4px;
+}
+.btn_container .submitBtn{ 
+    display: block; width: 100%; padding: 13px; border: none; 
+    background-color: #FF9F74; color: #fff;  font-size: 16px; border-radius: 4px;
+}

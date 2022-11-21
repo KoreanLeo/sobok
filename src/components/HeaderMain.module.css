@@ -1,0 +1,25 @@
+.header{ display: fixed; width: 100%; position: fixed; background-color: #fff; box-shadow: 0px 2px 4px #00000015; z-index: 999; }
+.header_wrap{ max-width: 1200px; margin: 0 auto; }
+
+.contain01{ padding: 20px 10px 10px 10px; display: flex; justify-content: space-between; }
+.contain01 .title{ 
+    font-size: 18px; font-weight: 600; position: relative; 
+    display: flex; align-items: center; cursor: pointer;
+}
+.contain01 .title .arrow{ margin-left: 5px;  }
+
+.contain01 .title > ul{ 
+    position: absolute; left: 0; background-color: #fff; top:30px; z-index: 1; 
+    border: 1px solid #e8e8e8; z-index: 9;
+}
+.contain01 .title > ul > li { text-align: center; padding:10px 15px; }
+.contain01 .title > ul > li + li { border-top: 1px solid #e8e8e8; }
+
+.contain01 .icon{ background-color: unset; border: unset;  }
+.contain01 .icon + .icon{ margin-left: 10px; }
+
+.menu_wrap{ display: flex; width: 100%; }
+.menu_wrap > li { padding: 15px 10px; font-size: 16px; position: relative; text-align: center; cursor: pointer; }
+.menu_wrap > li.active::after{ position: absolute; left: calc(50% - 40%); bottom: 0; content:''; display: block; width: 80%; height: 5px; background-color: #5D5D5D;  }
+
+

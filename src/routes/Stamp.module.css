@@ -1,0 +1,42 @@
+.stampContainer{ max-width: 1200px; margin: 0 auto; overflow: hidden; padding: 10px; padding-top: 63.33px; padding-bottom: 100px; }
+.storeTitle{ 
+    padding:15px 10px; font-size: 18px; font-weight: 600; 
+    display: flex; align-items: center; justify-content: center;  
+}
+.storeTitle .logo{ 
+    display: inline-block; width: 35px; height: 35px;
+    flex-shrink: 0; margin-right: 10px;
+    background-position: center; background-repeat: no-repeat; background-size: contain;
+}
+
+.cafeList{ display: flex; flex-wrap: wrap; margin: 10px 0; }
+.cafeList li{ margin-right: 15px; cursor: pointer; padding: 5px; }
+.cafeList li.on{ color: #49637A; position: relative; }
+.cafeList li.on::after{ 
+    content:''; position: absolute; display: block; 
+    left: 0; bottom: 0; width: 100%; height: 4px; background-color: #49637A;
+}
+
+.stampList{ display: flex; flex-wrap: wrap; max-width: 640px; margin: 0 auto; margin-top: 20px; border-top: 1px solid #E4E4E4; border-left: 1px solid #E4E4E4; }
+.stampList > li { width: calc(100% / 3); padding: 10px; display: flex; align-items: center; justify-content: center; border-right: 1px solid #E4E4E4; border-bottom: 1px solid #E4E4E4; min-height: 150px; }
+.stampList > li .itemIcon{ margin: 0 auto; width: 60px; height: 60px; background-image: url('/public/images/stamp_empty.svg'); background-size: contain; background-position: center; background-repeat: no-repeat;  }
+.stampList > li.on .itemIcon{ background-image: url('/public/images/stamp_on.svg'); }
+.stampList > li .complete .itemIcon{ background-image: url('/public/images/stamp_complete.svg'); }
+
+.stampList > li .title{ text-align: center; color: #FF9F74; margin-top: 5px; display: none; }
+.stampList > li .date{ text-align: center; color: #7f7f7f; font-size: 14px; display: none; }
+
+.stampList > li.on .title{ display: block; }
+.stampList > li.on .date{ display: block; }
+
+.stampList > li .complete .title{ text-align: center; display: block; font-weight: 600; margin-top: 10px;  }
+
+.btnWrap{ margin-top: 20px; }
+.btnWrap .okBtn{ background-color: #FF9F74; color: #fff; border: none; padding: 15px; text-align: center; width: 100%; border-radius: 5px; }
+.btnWrap .okBtn:hover{ background-color: #ff8850; }
+
+
+
+
+
+

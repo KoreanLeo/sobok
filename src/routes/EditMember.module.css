@@ -1,0 +1,14 @@
+.Editform{ padding: 20px 10px; border-bottom: 1px solid #E8E8E8; padding-top:73.33px; }
+
+.ipt_wrap + .ipt_wrap{ margin-top: 30px; }
+.label{ font-size: 18px; margin-bottom: 5px; font-weight: 600; }
+.label b{ color: #EB5757; font-weight: 300; padding-left:2px }
+
+.ipt{ font-size: 15px; padding: 15px; width: 100%; border-radius: 6px; border: 1px solid #E8E8E8;  }
+.ipt:active{ border: 1px solid #E8E8E8; outline : 1px solid #E8E8E8; }
+
+.btnWrap{ padding: 0 10px 20px 10px; }
+.btnWrap .ok_btn{ 
+    background-color: #FF9F74; border-radius: 4px; color: #fff; border: none; width: 100%; 
+    margin-top: 20px; font-size: 16px; padding: 15px 10px;
+}

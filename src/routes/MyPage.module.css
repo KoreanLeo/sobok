@@ -1,0 +1,38 @@
+.profileWrap{ padding: 10px; padding-top:63.33px ; border-bottom: 1px solid #dfdfdf; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; overflow: hidden; }
+.profileWrap .leftBox .name{ font-size: 18px; font-weight: 500; flex-shrink: 0; }
+.profileWrap .leftBox .name > span{ color: #FF9F74; }
+.profileWrap .leftBox .produce{ color: #7f7f7f; font-size: 16px; }
+
+.profileWrap .rightBox > button{ color: #fff; background-color: #7f7f7f; padding: 10px 20px; border: none; border-radius: 5px; font-size: 14px; }
+
+.stampList{ 
+    padding: 10px 5px 0 10px; 
+    display: flex; max-width: 500px; width: 100%;
+    margin: 0 auto;
+}
+.stampList > li { padding: 0 5px; width: calc(100% / 2); }
+.stampList > li .item{ 
+    background-color: #7f7f7f;
+    width: 100%; height: 100%; text-align: center; color: #fff; padding: 20px 15px; 
+    cursor: pointer; border-radius: 10px;
+    display: flex; flex-direction: column; justify-content: center;
+}
+.stampList > li:first-child .item{ background-color: #FF9F74; }
+
+.stampList > li .item .icon{ width: 50px; height: 50px; margin: 0 auto; background-size: contain; background-position: center; background-repeat: no-repeat; }
+.stampList > li:nth-child(1) .item .icon{ background-image: url('/public/images/mypage_stamp01.png'); }
+.stampList > li:nth-child(2) .item .icon{ background-image: url('/public/images/mypage_stamp02.png'); }
+
+.stampList > li .item .title{ margin-top: 10px; word-break: keep-all; }
+
+.StoreBtnWrap{ padding: 10px 10px 5px 15px; margin: 0 auto; max-width: 500px;   }
+.orangeBtn{ padding: 15px; text-align: center; color: #fff; border-radius: 5px; background-color: #FF9F74; width: 100%; border: none; }
+
+.StoreInfo{ border: 1px solid #DFDFDF; border-radius: 5px; padding: 20px; margin-bottom: 20px; }
+.StoreInfo .orange{ color: #FF9F74; }
+.StoreInfo .done{ color: #7f7f7f; padding: 5px 0; font-size: 14px; }
+.StoreInfo .date{ font-size: 14px; }
+
+
+
+

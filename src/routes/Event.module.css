@@ -1,0 +1,26 @@
+.eventContainer{ max-width: 1200px; margin: 0 auto; overflow: hidden; padding: 10px; padding-top: 63.33px; padding-bottom: 100px;  }
+
+.eventList > li{ padding: 10px 0 20px 0; border-bottom: 1px solid #dfdfdf;   }
+.eventList > li .item .titleWrap{ display: flex; align-items: center; margin-top: 5px; }
+.eventList > li .item .titleWrap .imgBox{ width: 30px; height: 30px; background-color: #dfdfdf; border-radius: 50%; margin-right: 5px; flex-shrink: 0; }
+
+.eventList > li .item .titleWrap .info{ width: calc(100% - 35px); }
+.eventList > li .item .titleWrap .info .name{ display: block; font-weight: 600; overflow: hidden; text-overflow: ellipsis;  white-space: nowrap; } 
+.eventList > li .item .titleWrap .info .category{ display: block; font-size: 13px; } 
+
+.eventList > li .item .date{ font-size: 13px; text-align: right; color: #7f7f7f; }
+
+.eventList > li .item .imgBox{ margin: 10px 0; height: 400px; background-color: #dfdfdf; border-radius: 5px; }
+
+.eventList > li .item .contentBox{ 
+    margin-top: 10px; border: 1px solid #dfdfdf; padding: 10px; border-radius: 4px; 
+}
+.eventList > li .item .contentBox .title{ font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.eventList > li .item .contentBox .content{ white-space: normal;  word-wrap: keep-all; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; font-size: 14px; margin-top: 5px; }
+
+@media screen and (max-width: 1250px) { 
+    .eventList > li .item .imgBox{ height: 35vw; }
+}
+@media screen and (max-width: 650px) { 
+    .eventList > li .item .imgBox{ height: 40vw; }
+}

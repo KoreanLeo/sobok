@@ -1,0 +1,21 @@
+.shippingContainer{ max-width: 1200px; margin: 0 auto; overflow: hidden; padding: 10px; padding-top: 63.33px; padding-bottom: 100px; }
+.title{ text-align: center; font-size: 18px; font-weight: 600; padding: 20px 0 10px 0; }
+.help{ text-align: center; color: #7f7f7f; font-size: 14px; }
+
+
+.ipt_wrap + .ipt_wrap{ margin-top: 30px; }
+.label{ font-size: 16px; margin-bottom: 5px; font-weight: 600; }
+.label b{ color: #EB5757; padding-left: 2px; font-weight: 400; }
+.ipt{ font-size: 15px; padding: 15px; width: 100%; border-radius: 6px; border: 1px solid #E8E8E8;  }
+.ipt:active{ border: 1px solid #E8E8E8; outline : 1px solid #E8E8E8; }
+
+
+
+
+
+
+
+
+.btnWrap{ margin-top: 20px; }
+.btnWrap .okBtn{ background-color: #FF9F74; color: #fff; border: none; padding: 15px; text-align: center; width: 100%; border-radius: 5px; }
+.btnWrap .okBtn:hover{ background-color: #ff8850; }

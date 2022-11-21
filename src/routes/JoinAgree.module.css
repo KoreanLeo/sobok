@@ -1,0 +1,21 @@
+.signUp_container{ margin: 0 auto; max-width: 360px; width: 100%; position: relative; }
+
+.signUp_title { padding: 20px 0; text-align: center; font-size: 18px; font-weight: 500; padding-top: 73.33px; }
+
+.allCheckbox{ background-color: #7F7F7F; color: #fff; }
+.allCheckbox input[type=checkbox]{ display: none; }
+.allCheckbox input[type=checkbox] + label{ display: block; padding: 10px; cursor: pointer; position: relative; padding-left: 35px; font-size: 16px; }
+.allCheckbox input[type=checkbox] + label::before{ content:''; position: absolute; top: 14px; left: 10px; display: inline-block; width: 15px; height: 15px; border: 1px solid #fff;  }
+.allCheckbox input[type=checkbox]:checked + label::before{ background-image: url('/public/images/check_icon.svg'); background-repeat: no-repeat; background-position: center; background-size: 70%; }
+
+.checkboxWrap{ margin-top: 20px;  }
+.checkboxWrap input[type=checkbox]{ display: none; }
+.checkboxWrap input[type=checkbox] + label{ display: block; cursor: pointer; position: relative; padding-left: 20px; color: #7f7f7f; }
+.checkboxWrap input[type=checkbox] + label::before{ content:''; position: absolute; top: 2px; left: 0; display: inline-block; width: 15px; height: 15px; border: 1px solid #dfdfdf;   }
+.checkboxWrap input[type=checkbox]:checked + label::before{ background-color: #FF9F74; background-image: url('/public/images/check_icon.svg'); background-repeat: no-repeat; background-position: center; background-size: 70%; }
+
+.agreeText{ margin-top: 10px; padding: 10px; border: 1px solid #D9D9D9; color: #7f7f7f; height: 100px; overflow-y: scroll; }
+
+.btnWrap{ margin-top: 20px; }
+.btnWrap .nextBtn{ display: block; width: 100%; background-color: #FF9F74; color: #fff; text-align: center; border: none; padding: 15px 10px; font-size: 16px; border-radius: 4px; }  
+.btnWrap .nextBtn:hover{ background-color:#ff8850; }  

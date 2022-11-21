@@ -1,0 +1,61 @@
+.login_auth{ 
+    max-width: 360px; margin: 0 auto; padding: 0 10px; min-height: 100vh; 
+    display: flex; flex-direction: column; align-items: center; justify-content: space-between;
+}
+
+.login_box{ 
+    padding: 40px 0; position: relative;
+    display: flex; justify-content: center; align-items: center; flex-direction: column; 
+    flex : 1 1 auto; height:100%; width: 100%; flex-wrap: wrap;
+}
+
+.login_logo{ display: block; margin: 0 auto 50px auto; width: 100%; max-width: 180px;  }
+.login_form{ margin: 20px 0; }
+
+.ipt{ 
+    width: 100%; font-size: 18px; font-weight: 400; padding: 15px 15px 15px 50px; border: 1px solid #E8E8E8; 
+    background-repeat: no-repeat; background-position: left 17px center;
+}
+.ipt:focus{ outline: 1px solid #FF9F74; border: 1px solid #FF9F74; }
+
+.email{ background-image: url('../../public/images/login_email_icon.svg'); border-radius: 4px 4px 0 0; border-bottom: none; }
+.password{ background-image: url('../../public/images/login_password_icon.svg'); border-radius: 0 0 4px 4px; }
+
+.logInBtn{ 
+    width: 100%; background-color: #FF9F74; color: #fff; border: none; 
+    padding: 15px 10px; border-radius: 4px; text-align: center; font-size: 18px;
+    margin-top: 20px; 
+}
+.logInBtn:hover{ background-color: #ff8850; }
+
+.socialLoginBtn{ width: 100%; border: 1px solid #E8E8E8; padding: 15px 10px; background-color: #fff; color: #8E8E8E; border-radius: 4px; margin-top: 10px;  }
+.socialLoginBtn:hover{background-color: #EDEDED; }
+
+
+.options{ display: flex; align-items: center; justify-content: center; margin-top: 40px; }
+.options > li { margin-left: 15px; cursor: pointer; }
+.options > li:first-child{ margin-left: 0; }
+
+.help_container{ 
+    text-align: center; background-color: #424242; color: #fff; 
+    width: 100%; padding: 10px 10px; border-radius: 4px;  
+    position:absolute; bottom: 0; left: 0; font-size: 16px; transition: bottom 0.5s;
+    animation : login_error ease-in-out 0.5s;
+}
+
+.footer{ padding: 10px 0; }
+
+
+.storekeeperContainer{ border:1px solid #e8e8e8; width: 100%; padding: 20px 10px; margin-top: 20px; }
+.storekeeperContainer .title{ text-align: center; color: #7f7f7f; }
+.storekeeperContainer .signUpBtn{ 
+    display: block; margin: 0 auto; margin-top: 10px; padding:10px 20px; 
+    text-align: center; border-radius: 5px; background-color: #FF9F74; 
+    border: none; color: #fff; 
+}
+.storekeeperContainer .signUpBtn:hover{ background-color: #ff8850; }
+
+@keyframes login_error{
+    0% { bottom: -100px ; }
+    50% { bottom: 0; }
+}

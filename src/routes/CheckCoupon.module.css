@@ -1,0 +1,19 @@
+.cuponContainer{ max-width: 1200px; margin: 0 auto; overflow: hidden; padding: 10px; padding-top: 63.33px; padding-bottom: 100px; }
+.storeTitle{ 
+    padding:15px 10px; font-size: 18px; font-weight: 600; 
+    display: flex; align-items: center; justify-content: center;  
+}
+.storeTitle .logo{ 
+    display: inline-block; width: 35px; height: 35px;
+    flex-shrink: 0; margin-right: 10px;
+    background-position: center; background-repeat: no-repeat; background-size: contain;
+}
+
+.cuponWrap{ padding:20px 10px; border: 1px solid #DEDEDE; }
+.cuponWrap .stampProduct{ max-width: 100%; display: block; margin: 0 auto;  }
+.cuponWrap .title{ text-align: center; padding: 20px 0; }
+.cuponWrap .cupon{ text-align: center; color: #FF9F74; font-size: 18px; font-weight: 600; }
+
+.btnWrap{ margin-top: 20px; }
+.btnWrap .okBtn{ width: 100%; text-align: center; color: #fff; background-color: #FF9F74; border: none; padding: 15px; border-radius: 5px;  }
+.btnWrap .okBtn:hover{ background-color: #ff8850; }

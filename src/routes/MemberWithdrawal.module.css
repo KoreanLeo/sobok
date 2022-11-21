@@ -1,0 +1,10 @@
+.Container{ padding: 50px 10px; max-width: 360px; margin: 0 auto; padding-top: 73.33px; padding-bottom: 100px; }
+.Container > .logo{ display: block; margin: 0 auto; max-width: 100%; max-width: 150px; }
+.Container .title01{ text-align: center; margin: 10px 0; font-weight: 600; font-size: 18px; }
+.Container .contentWrap{ text-align: center; color: #7f7f7f;  }
+.Container .contentWrap .orange{ color: #FF9F74; }
+
+.Container .buttonWrap{ margin-top:50px; }
+.Container .buttonWrap > li{ padding: 5px 0;  }
+.Container .buttonWrap > li .ok_btn{ background-color: #7f7f7f; color: #fff; padding: 15px 10px; width: 100%; text-align: center; border: none; }
+.Container .buttonWrap > li:first-child .ok_btn{ background-color: #FF9F74; }

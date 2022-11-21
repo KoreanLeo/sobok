@@ -1,0 +1,25 @@
+.signUp_container{ margin: 0 auto; max-width: 360px; width: 100%; position: relative; padding-top: 63.33px; }
+
+.singUp_wrap{ padding: 40px 10px; }
+.ipt_wrap + .ipt_wrap{ margin-top: 30px; }
+.label{ font-size: 18px; margin-bottom: 5px; font-weight: 600; }
+
+.ipt{ font-size: 15px; padding: 15px; width: 100%; border-radius: 6px; border: 1px solid #E8E8E8;  }
+.ipt:active{ border: 1px solid #E8E8E8; outline : 1px solid #E8E8E8; }
+
+.help{ margin-top: 10px; color: #FF4E00; text-align: right; font-size: 14px; }
+
+.signup_btn{ width: 100%; border: none; margin-top: 40px; font-size: 16px; padding: 15px; border-radius: 4px; color: #fff; background-color: #FF9F74; }
+.signup_btn:hover{ background-color: #ff8850; }
+
+.conplete_popup{ 
+    position: fixed; width: 100%; height: 100%; left: 0; top: 0; padding: 10px;
+    background-color: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center;
+}
+.popup_container{ background-color: #fff; padding: 40px 20px 20px 20px; border-radius: 7px; width: 100%; max-width: 300px;   }
+.popup_container > img{  display: block; max-width: 100%; margin: 0 auto; margin-bottom: 10px; }
+.popup_container > p { text-align: center; }
+.complete_btn { 
+    background-color: #FF9F74; border-radius: 4px; color: #fff; border: none; width: 100%; 
+    margin-top: 20px; font-size: 16px; padding: 15px 10px;
+}

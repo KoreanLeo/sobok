@@ -1,0 +1,20 @@
+.SignupContainer{ margin: 0 auto; max-width: 360px; width: 100%; position: relative; padding-top: 73.33px; padding-bottom: 50px; }
+
+.singUp_wrap{ padding: 40px 10px; }
+.ipt_wrap + .ipt_wrap{ margin-top: 30px; }
+.label{ font-size: 18px; margin-bottom: 5px; font-weight: 600; }
+.label b{ font-weight: 400; color: #FF4E00; padding-left: 2px; }
+
+.ipt{ font-size: 15px; padding: 15px; width: 100%; border-radius: 6px; border: 1px solid #E8E8E8;  }
+.ipt:active{ border: 1px solid #E8E8E8; outline : 1px solid #E8E8E8; }
+
+.help{ margin-top: 10px; color: #FF4E00; text-align: right; font-size: 14px; }
+
+.important{ font-size: 14px; color: #7f7f7f; }
+
+.file{ padding: 15px; border: 1px solid #E8E8E8; border-radius: 5px; padding-left: 46px; background-image: url('/public/images/file_icon.svg'); background-repeat: no-repeat; background-size: auto 35%; background-position: left 15px center; }
+
+
+.btnWrap{ margin-top: 25px; }
+.btnWrap .okBtn{ display: block; width: 100%; padding: 15px; background-color: #FF9F74; text-align: center; border-radius: 5px; color: #fff; border: none; }
+

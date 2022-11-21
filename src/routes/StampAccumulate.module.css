@@ -1,0 +1,10 @@
+.stampContainer{ max-width: 1200px; margin: 0 auto; padding: 10px; padding-bottom: 100px; padding-top: 73.33px; }
+.title{ text-align: center; font-size: 18px; font-weight: 600; margin: 20px 0; }
+.logo{ display: block; margin: 40px auto; max-width: 150px; width: 100%; }
+
+.phoneNumber{ text-align: center; color: #FF9F74; font-size: 30px; font-weight: 600; }
+.help{ text-align: center; color: #7f7f7f; font-size: 14px; }
+
+.btnWrap{ margin-top: 40px; }
+.btnWrap .okBtn{ color: #fff; padding: 15px; border-radius: 5px; background-color: #FF9F74; width: 100%; text-align: center; border: none; }
+.btnWrap .okBtn:hover{ background-color: #ff8850;  }
